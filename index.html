@@ -8,20 +8,22 @@
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <link href="https://getbootstrap.com/docs/5.1/assets/css/docs.css" rel="stylesheet">
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" type="image/jpg" href="img/logo.jpg"/>
+    <link rel="shortcut icon" type="image/jpg" href="img/itnergy1.jpeg"/>
     <link rel="stylesheet" href="serious2.css">
+    
 </head>
 <style>
     @media screen and ( min-width: 1200px) {
   .mine {
     height: 450px;
-    width: 750px;
+    width: 100%;
     
   }
 }
 @media screen and ( max-width: 700px) {
   .mine {
     width: 100%;
+    height: 200px;
     
   }
 }
@@ -134,13 +136,43 @@ padding: 10px;
   transform: rotateX(360deg);
 }
     
+.nav-link:visited,
+.nav-link:link {
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover,
+.nav-link:active 
+{
+  border-bottom: 2px solid #61c90c;
+}
+.mik {
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.mik:hover
+{
+  color: rgb(96, 167, 90);
+  
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.feel{
+  background-color: #494545;
+}
 
 </style>
 <body>
     
-<nav class="navbar navbar-expand-lg  navbar-light bg-dark font-serious2 ">
+<nav class="navbar navbar-expand-lg  navbar-light bg-dark font-serious2 nav- ">
     <div class="container-fluid">
-    <a class="navbar-brand me-3" href="#"><img src="img/logo.jpg" class="avatars" alt="" srcset=""></a>
+    <a class="navbar-brand me-3" href="#"><img src="img/itnergy1.jpeg" class="avatars" alt="" srcset=""></a>
       <a class="navbar-brand text-light" href="#">ITNERGY Services Limited</a>
       <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
@@ -148,43 +180,59 @@ padding: 10px;
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active text-light me-5" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="about.html">About Us</a>
+              <a class="nav-link text-light me-5" href="about.html">About Us</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link text-light" href="#">Products</a>
             </li> -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
+              <a class="nav-link dropdown-toggle text-light me-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="ads.html">Advanced Displays Solutions
+              <ul class="dropdown-menu feel" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item mik font-serious2" href="ads.html">The Wall
                 </a></li>
-                <li><a class="dropdown-item" href="#">Business Communications 
+                <li><a class="dropdown-item mik font-serious2" href="bcs.html">Hospitality TV 
                 </a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Control Room Solutions</a></li>
+                <li><a class="dropdown-item mik font-serious2" href="#">Interactive</a></li>
+                <li><a class="dropdown-item mik font-serious2" href="#">Video wall</a></li>
+
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contact Us</a>
+              <a class="nav-link text-light font-serious2" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="" target="blank"><i class="fab fa-google-plus-square"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="" target="blank"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="" target="blank"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="https://wa.link/ckyl61" target="blank"><i class="fab fa-whatsapp"></i></a>
             </li>
           </ul>
       </div>
     </div>
   </nav>
-  <div class="bg-black">
-  <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel" data-bs-pause="false" >
+  
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-interval="10000"  data-bs-ride="carousel"  data-bs-pause="false"  >
     <div class="carousel-indicators text-dark">
       <button type="button"  data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button"  data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     </div>
     <div class="carousel-inner ">
       <div class="carousel-item active">
-        <center><img src="img/video-conference.webp" class="d-block  mine rounded" alt="..."></center>
+        <center><img src="img/index.jpg" class="d-block  mine rounded"  alt="..."></center>
         <div class="carousel-caption d-none d-md-block text-dark">
           
         </div>
@@ -196,8 +244,8 @@ padding: 10px;
           <p>Some representative placeholder content for the second slide.</p>
         </div>
       </div> -->
-      <div class="carousel-item">
-        <center><img src="img/control2.jpg" class="d-block  mine rounded" alt="..."></center>
+      <div class="carousel-item" >
+        <center><img src="img/giving.jpg" class="d-block  mine rounded" alt="..."></center>
         <div class="carousel-caption d-none d-md-block text-light">
          
         </div>
@@ -212,7 +260,7 @@ padding: 10px;
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="cod">
+  <!-- <div class="cod">
     <div class="row2">
     <div class="flirt">
             <a href="#"><img src="img/ttt.jpg" alt="Chicago" width="1100" height="500" class="karan"></a>
@@ -229,7 +277,7 @@ padding: 10px;
      <a href="https://wa.link/ckyl61"><img src="img/whatsapp3.png" alt="Chicago" width="1100" height="500" class="karan "></a>
       </div>
     </div>
-    </div>
+    </div> -->
   </div>
     <br>
     <div class="container font-serious2">
@@ -250,7 +298,7 @@ padding: 10px;
           </div>
         </div>
     </div>
-    <div class="cod">
+    <!-- <div class="cod">
     <div class="row2">
     <div class="flirt">
             <a href="#"><img src="img/ttt.jpg" alt="Chicago" width="1100" height="500" class="karan "></a>
@@ -267,7 +315,7 @@ padding: 10px;
      <a href="https://wa.link/ckyl61"><img src="img/whatsapp3.png" alt="Chicago" width="1100" height="500" class="karan "></a>
       </div>
     </div>
-    </div>
+    </div> -->
     <br>
     <div class="container font-serious2">
         <div class="row text-center">
@@ -291,141 +339,112 @@ padding: 10px;
            background: #ffffff;
        }
        
-       a {
-           transition: .3s;
-       }
-       
-       a:hover,
-       a:active,
-       a:focus {
-           outline: none;
-           text-decoration: none;
-       }
-       
-       .footer {
-           position: relative;
-           padding-top: 45px;
-           background: #121518;
-           height: auto;
-       }
-       
-       .footer .footer-about,
-       .footer .footer-contact,
-       .footer .footer-links,
-       .footer .footer-project {
-           position: relative;
-           margin-bottom: 45px;
-           color: #999999;
-       }
-       
-       .footer .footer-about h3,
-       .footer .footer-contact h3,
-       .footer .footer-links h3,
-       .footer .footer-project h3 {
-           position: relative;
-           margin-bottom: 5px;
-           padding-bottom: 5px;
-           font-size: 30px;
-           font-weight: 600;
-           color: #eeeeee;
-       }
-       
-       .footer .footer-about h3::after,
-       .footer .footer-contact h3::after,
-       .footer .footer-project h3::after {
-           position: absolute;
-           content: "";
-           width: 50px;
-           height: 2px;
-           left: 0;
-           bottom: 0;
-           background: #eeeeee;
-       }
-       
-       .footer .footer-links h3::after{
-         position: absolute;
-           content: "";
-           width: 50px;
-           height: 2px;
-           left: 0;
-           bottom: 0;
-           background: #eeeeee;
-       }
-       .fifty{
-         display:block;
-           width:400px;
-           word-wrap:break-word;
+           .nothing{
+            background-color: #9b9898;
            }
-           .kemi{
-             height: auto;
-             text-align: center;
-             font-size: 16px;
-             color: white;
-       
-           }
-           .m{
-             margin: 30px;
-             margin-top: 0px;
-           }
+           .one::after,
+           .two::after,
+          .three::after,
+          .four::after {
+            display: block;
+            content: '';
+           width: 15%;
+            height: 2px;
+            background: black;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+                }
+
+          .one,
+          .two,
+          .three,
+          .four {
+              position: relative;  
+              }
        </style>
-       <div class="footer fine ">
-                   <div class="container">
-                       <div class="row">
-                         <div class="footer-links fifty">
-                       <h3 class="font-paris">Services</h3>   
-                       <div class="font-serious2 " >
-            <li> <a class="text-capitalize" style="color: white;" href="#" >Advanced Displays Solutions</a></li>
-            <br>
-          <li>  <a class="text-capitalize" style="color: white;"  href="#">Business Communications  Solutions</a></li>
-          <br>
        
-           <li><a class=" text-capitalize" style="color: white;"  href="#" >Control Room Solutions</a></li>
-           <br>
-       
-           <br>
-       
-           </div>   
-                         </div>
-                         <div class="footer-about fifty">
-                     <h3 class="font-paris">About Us</h3>
-                     <p class="font-serious2 p-2">ITNERGY is a dedicated solutions provider that brings you world renowned brands in Smart Automation, Audio Visual, Lighting and Home Cinemas & Seating, all under one roof.</p>   
-                     <p class="font-serious2 p-2">Head Branch: 17, Olori Adekemi Ajibola Street, 
-                      Arowojobe Estate, 
-                      Mende Maryland,
-                      Lagos Nigeria</p>  
-                         </div>
-           <div class=" well">
-               <div class=""></div>
-               <div id="" class="m" >
-             <div class="font-ubuntu m-0 " style="color: white;">
-             <h3 class="">For FeedBack:</h3>
-             </div>
-                   <form method="post"  action="" class="footer-about " >
-                       <div class="form-group">
-                           <h3>Your Email:</h3>
-                           <input type="email" width="20px" class="form-control font-ubuntu" name="emails" required="required"/>
-                       </div>
-                     <div class="form-group">
-               <h3>Message Us</h3>
-                       <textarea required name="address" class="form-control font-ubuntu" cols="5" rows="3" placeholder="Enter Message Here........"></textarea>
-                   </div>
-                   <br>
-                   <div class="form-group">
-                   <center><button type="submit" name="send" class="btn btn-primary"> <i class="fas fa-mail-bulk"></i>Send</button></center>
-                   </div>
-                   </form>
-                   <br />
-           </div>
-           </div>
-                    <div class="footer-contact fifty">
-                     <h3 class="font-paris">Contact Us</h3>
-                   <p class="font-serious2">Click to: (<a href="tel:08028380760" style="color: white;" class="font-serious2">Call 08028380760</a>)</p>
-                   <p class="font-serious2">Click to: (<a href="mailto:info@itnergy.com.ng" style="color: white;">Email Us!</a>)</p>
-                         </div>
-                       </div>
-                   </div>
-                     </div>
-                     <footer class="bg-dark kemi font-serious2">Copyright 2023 © ITNERGY . All rights reserved.@Mikini</footer>
+                    <footer class="nothing mt-3">
+                      <div class="container font-serious2 ">
+                        <br>
+                        <div class="row mt-3">
+                          <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div>
+                              <a class="navbar-brand mb-3 me-3" href="#"><img src="img/itnergy1.jpeg" class="avatars" alt="" srcset=""></a>
+                                
+                              <p class="mb-30 mt-2 footer-desc">ITNERGY is a dedicated solutions provider that brings you world renowned brands in Smart Automation, Audio Visual, Lighting and Home Cinemas & Seating, all under one roof.</p>
+                            </div>
+                          </div>
+                          <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+                            <div class="">
+                              <h4 class="two">Quick Links</h4>
+                              <ul class="list-unstyled " style="color: black;">
+                                <li>
+                                  <a href="#" class=" font-serious2 text-decoration-none"style="color: black;">Home</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="font-serious2 text-decoration-none"style="color: black;">About Us</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="font-serious2 text-decoration-none"style="color: black;">Service</a>
+                                </li>
+                                <li>
+                                  <a href="#" class="font-serious2 text-decoration-none"style="color: black;">Contact</a>
+                                </li>
+                              </ul>
+                              <ul class="d-flex gap-3 list-unstyled  ">
+                                <li><a class=" text-dark h5" href="" target="blank"><i class="fab fa-google-plus-square"></i></a>
+                                </li>
+                                <li><a class=" text-dark h5" href="" target="blank"><i class="fab fa-twitter"></i></a></a></li>
+                                <li><a class=" text-dark h5" href="" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a class=" text-dark h5" href="" target="blank"><i class="fab fa-whatsapp"></i></a></li>
+    
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div>
+                              <h4 class="three">Products</h4>
+                              <ul class="list-unstyled">
+                                <li><a class=" font-serious2 text-decoration-none"  style="color: black;" href="ads.html">The Wall
+                                </a></li>
+                                <li><a class="font-serious2 text-decoration-none" style="color: black;" href="bcs.html">Hospitality TV 
+                                </a></li>
+                                <li><a class="font-serious2 text-decoration-none" style="color: black;" href="#">Interactive</a></li>
+                                <li><a class="  font-serious2 text-decoration-none " style="color: black;" href="#">Video wall</a></li>
+                                
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div>
+                              <h4 class="four"> Address</h4>
+                              <ul class="list-unstyled">
+                                <p class="font-serious2">Click to: (<a href="tel:08028380760" style="color: rgb(6, 6, 6);" class="font-serious2">Call 08028380760</a>)</p>
+                                <p class="font-serious2">Click to: (<a href="mailto:info@itnergy.com.ng" style="color: rgb(9, 9, 9);">Email Us!</a>)</p>
+                                <li>
+                                  <p>Head Branch: 17, Olori Adekemi Ajibola Street, 
+                                    Arowojobe Estate, 
+                                    Mende Maryland,
+                                    Lagos Nigeria</p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                    
+                          <div class="copyright">
+                            <p>Copyright 2023 © ITNERGY . All rights reserved @Mikini</p>
+                          </div>
+                          <div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </footer>
+                    
 </body>
+</html>
 
 <!--Get your own code at fontawesome.com-->

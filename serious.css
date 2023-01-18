@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
 :root{
-    --font-serious:'Abel', sans-serif;
+    --font-serious:'Urbanist', sans-serif;
     --color-border: rgb(248, 247, 247);
     
 }
