@@ -145,7 +145,8 @@ padding: 10px;
     margin-bottom: 300px;
    }
    .header{
-            width: 100%;
+            width: auto;
+            max-width: 100%;
             background-image: url('img/bobo.jpg');
             background-repeat: no-repeat;
             background-position: center;
@@ -160,6 +161,13 @@ padding: 10px;
     @media screen and (min-width: 1200px) {
   .header{
     height: 300px;
+  }
+}
+@media screen and (width: 1024px) {
+  .header{
+    height: 300px;
+    width: 100%;
+    max-width: 100%;
   }
 }
 .test{
@@ -338,7 +346,7 @@ The display’s wide viewing angles mean content is easily visible even if viewe
             </P>
     </div>
     <div class="container">
-       <center> <img src="img/video-wall2.jpg" class="overload rounded-3"  alt=""></center>
+       <center> <img src="img/video-wall2.jpg"  style="width: auto; max-width: 100%;" class="overload rounded-3"  alt=""></center>
        <br>
        <br>
     </div>
@@ -349,7 +357,7 @@ The display’s wide viewing angles mean content is easily visible even if viewe
         <P class="font-serious4 text-center">A showcase of products we have in this category.</P>
         <div class="card-group">
             <div class="card rain ">
-              <img src="img/vmb.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 " alt="...">
+              <img src="img/vmb.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 " alt="...">
               <div class="card-body">
                 <h5 class="card-title font-serious">VMB-U SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -362,7 +370,7 @@ The display’s wide viewing angles mean content is easily visible even if viewe
               </div>
             </div>
             <div class="card rain">
-              <img src="img/vmr.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+              <img src="img/vmr.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 "  alt="...">
               <div class="card-body ">
                 <h5 class="card-title font-serious">VMR-U SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -375,7 +383,7 @@ The display’s wide viewing angles mean content is easily visible even if viewe
               </div>
             </div>
             <div class="card rain">
-              <img src="img/vmt.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+              <img src="img/vmt.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 "  alt="...">
               <div class="card-body">
                 <h5 class="card-title font-serious">VMT-U SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">

@@ -161,6 +161,7 @@ padding: 10px;
     @media screen and (min-width: 1200px) {
   .header{
     height: 300px;
+    width: 100%;
   }
 }
 .test{
@@ -191,17 +192,25 @@ padding: 10px;
 .live{
     color: #288542;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
   .overload{
     width: 500px;
     height: 400px;
+    max-width: 100%;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (width: 820px) {
+  .overload{
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+  }
+}
+/* @media screen and (max-width: 700px) {
   .overload{
     width: 350px;
   }
-}
+} */
 .feelings{
     background-color: #e7e7e7;
     margin-top: 0;
@@ -237,9 +246,9 @@ padding: 10px;
 }
 
 </style>
-<body>
-    
-<nav class="navbar navbar-expand-lg  navbar-light bg-dark font-serious2 nav- ">
+<body >
+
+<nav class="navbar navbar-expand-lg  navbar-light bg-dark font-serious2 nav- " style="max-width: 100%;">
     <div class="container-fluid">
     <a class="navbar-brand me-3" href="#"><img src="img/itnergy1.jpeg" class="avatars" alt="" srcset=""></a>
       <a class="navbar-brand text-light" href="#">ITNERGY Services Limited</a>
@@ -330,7 +339,7 @@ padding: 10px;
     </div>
   </nav>
   
-  <div class="container" style="max-width: 100%;">
+  <div class="container" >
 <p class="text-end font-serious2 mb-0 test">You are here: <a href="index.html" class="test">Home</a> / The Wall</p>
 
   </div>
@@ -347,7 +356,7 @@ padding: 10px;
     </div>
     </div>
     </div>
-      <div class="container col-md-12 col-md-6   ">
+      <div class="container col-md-12 col-md-6 col-lg-12   ">
         <h1 class=" live font-serious1 ms-3 mt-2">The Wall, a future-proof display</h1>
         <P class="font-serious2  ms-3  ">
             Businesses of the highest caliber pursue excellence. The Wall provides superior service. Use the most advanced screen technology to surpass client expectations. You can count on The Wall to consistently deliver an opulent, immersive, and memorable experience since it is simple to use and maintain. Although the business world has never been more competitive, The Wall enables you to push limits and profoundly reveal your principles.
@@ -358,7 +367,7 @@ We know running a business takes your undivided concentration, which is why The 
             </P>
     </div>
     <div class="container">
-       <center> <img src="img/00_KV.jpg" class="overload rounded-3"  alt=""></center>
+       <center> <img src="img/00_KV.jpg" style="width: auto; max-width: 100%;" class="overload rounded-3"  alt=""></center>
        <br>
        <br>
     </div>
@@ -369,9 +378,9 @@ We know running a business takes your undivided concentration, which is why The 
         <P class="font-serious4 text-center">A showcase of products we have in this category.</P>
 
 
-        <div class="card-group">
+        <div class="card-group" style="max-width: 100%;">
             <div class="card rain ">
-              <img src="img/IWB.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 " alt="...">
+              <img src="img/IWB.jpg" style="height: 300px; width: auto; max-width: 100%;" style="max-width: 100%;"  class="card-img-top rounded-3 " alt="...">
               <div class="card-body">
                 <h5 class="card-title font-serious">IWB SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -383,7 +392,7 @@ We know running a business takes your undivided concentration, which is why The 
               </div>
             </div>
             <div class="card rain">
-              <img src="img/IW.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+              <img src="img/IW.jpg" style="height: 300px; width: auto; max-width: 100%;" style="max-width: 100%;" class="card-img-top rounded-3 "  alt="...">
               <div class="card-body ">
                 <h5 class="card-title font-serious">IAB SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -396,7 +405,7 @@ We know running a business takes your undivided concentration, which is why The 
               </div>
             </div>
             <div class="card rain">
-              <img src="img/IWA.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+              <img src="img/IWA.jpg" style="height: 300px; width: auto; max-width: 100%;" class="card-img-top rounded-3 "  alt="...">
               <div class="card-body">
                 <h5 class="card-title font-serious">IWA SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -412,7 +421,7 @@ We know running a business takes your undivided concentration, which is why The 
               <div class="row row-cols-1 row-cols-md-2 g-4"style="max-width:100%">
                 <div class="col">
                   <div class="card rain">
-                    <center><img src="img/IWA-R.jpg" style="height: 300px; width: 320px;"  class="card-img-top  rounded-3 "  alt="..."></center>
+                    <center><img src="img/IWA-R.jpg" style="height: 300px; width: auto; max-width: 100%;" class="card-img-top  rounded-3 "  alt="..."></center>
                     <div class="card-body">
                       <h5 class="card-title font-serious">IWA-R SERIES</h5>
                       <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -427,7 +436,7 @@ We know running a business takes your undivided concentration, which is why The 
                 </div>
                 <div class="col">
                   <div class="card rain">
-                    <center><img src="img/IWJ-R.jpg" style="height: 300px; width: 320px;"  class="card-img-top rounded-3 hmm"  alt="..."></center>
+                    <center><img src="img/IWJ-R.jpg" style="height: 300px; width: auto; max-width: 100%;" class="card-img-top rounded-3 hmm"  alt="..."></center>
 
                     <div class="card-body">
                         <h5 class="card-title font-serious">IWJ-R SERIES</h5>
@@ -481,7 +490,7 @@ We know running a business takes your undivided concentration, which is why The 
               }
        </style>
        
-                    <footer class="nothing mt-3">
+                    <footer class="nothing mt-3" style="max-width: 100%;">
                       <div class="container font-serious2 ">
                         <br>
                         <div class="row mt-3">
@@ -557,7 +566,6 @@ We know running a business takes your undivided concentration, which is why The 
                         </div>
                       </div>
                     </footer>
-                    
 </body>
 
 <!--Get your own code at fontawesome.com-->
