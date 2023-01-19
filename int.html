@@ -146,6 +146,7 @@ padding: 10px;
    }
    .header{
             width: 100%;
+            max-width: 100%;
             background-image: url('img/nteractive.jpg');
             background-repeat: no-repeat;
             background-position: center;
@@ -160,6 +161,8 @@ padding: 10px;
     @media screen and (min-width: 1200px) {
   .header{
     height: 300px;
+    width: 100%;
+    max-width: 100%;
   }
 }
 .test{
@@ -168,12 +171,16 @@ padding: 10px;
 .live{
     color: #288542;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) {
+    .rain{
+        width: 600px;
+    }
   .overload{
     width: 600px;
     height: 450px;
   }
 }
+
 @media screen and (max-width: 700px) {
   .overload{
     width: 350px;
@@ -212,6 +219,7 @@ padding: 10px;
 .feel{
   background-color: #494545;
 }
+
 
 </style>
 <body>
@@ -307,7 +315,7 @@ padding: 10px;
     </div>
   </nav>
   
-  <div class="container" style="max-width: 100%;">
+  <div class="container" style="max-width: 100%; width: auto;">
 <p class="text-end font-serious2 mb-0 test">You are here: <a href="index.html" class="test">Home</a> / Interactive</p>
 
   </div>
@@ -337,7 +345,7 @@ Several series provides UHD resolution capabilities for incredibly clear content
             </P>
     </div>
     <div class="container">
-       <center> <img src="img/QMB-T_PC_02.jpg" class="overload rounded-3"  alt=""></center>
+       <center> <img src="img/QMB-T_PC_02.jpg" style="max-width: 100%;" width="auto" class="overload rounded-3"  alt=""></center>
        <br>
        <br>
     </div>
@@ -348,7 +356,7 @@ Several series provides UHD resolution capabilities for incredibly clear content
         <P class="font-serious4 text-center">A showcase of products we have in this category.</P>
         <div class="card-group">
             <div class="card rain ">
-              <img src="img/QMB.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 " alt="...">
+              <img src="img/QMB.jpg" style="height: 300px; width: auto;  max-width: 100%;"   class="card-img-top rounded-3 " alt="...">
               <div class="card-body">
                 <h5 class="card-title font-serious">QMB-T SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -361,7 +369,7 @@ Several series provides UHD resolution capabilities for incredibly clear content
               </div>
             </div>
             <div class="card rain">
-              <img src="img/WMB.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+              <img src="img/WMB.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 "  alt="...">
               <div class="card-body ">
                 <h5 class="card-title font-serious">WMB SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -376,7 +384,7 @@ Several series provides UHD resolution capabilities for incredibly clear content
               </div>
             </div>
             <div class="card rain">
-              <img src="img/QBR-7.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+              <img src="img/QBR-7.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 "  alt="...">
               <div class="card-body">
                 <h5 class="card-title font-serious">QBR-TR SERIES</h5>
                 <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -390,7 +398,7 @@ Several series provides UHD resolution capabilities for incredibly clear content
               </div>
               <div class="card-group">
               <div class="card rain ">
-                <img src="img/QMB.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 " alt="...">
+                <img src="img/QMB.jpg" style="height: 300px; width: auto;  max-width: 100%;"  class="card-img-top rounded-3 " alt="...">
                 <div class="card-body">
                   <h5 class="card-title font-serious">KMA SERIES</h5>
                   <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -402,7 +410,7 @@ Several series provides UHD resolution capabilities for incredibly clear content
                 </div>
               </div>
               <div class="card rain">
-                <img src="img/WMA.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 ms-4 "  alt="...">
+                <img src="img/WMA.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 ms-4 "  alt="...">
                 <div class="card-body ">
                   <h5 class="card-title font-serious">WMA SERIES</h5>
                   <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -416,7 +424,7 @@ Several series provides UHD resolution capabilities for incredibly clear content
                 </div>
               </div>
               <div class="card rain">
-                <img src="img/QBR-7.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+                <img src="img/QBR-7.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 "  alt="...">
                 <div class="card-body">
                   <h5 class="card-title font-serious">QBR-7 SERIES</h5>
                   <div class="btn-group" role="group" aria-label="Basic outlined example">
@@ -542,5 +550,4 @@ Several series provides UHD resolution capabilities for incredibly clear content
                       </div>
                     </footer>
 </body>
-
-<!--Get your own code at fontawesome.com-->
+</html>
