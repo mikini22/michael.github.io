@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
      <link href="https://getbootstrap.com/docs/5.1/assets/css/docs.css" rel="stylesheet">
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -144,19 +144,19 @@ padding: 10px;
 .come{
     margin-bottom: 300px;
    }
-   /* .header{
+   .header{
             width: 100%;
-            background-image: url('img/ads2.jpg');
+            background-image: url('img/hospitality.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
         }
      .header h1{
-                       font-size:40px;
+                       font-size:50px;
                        font-weight:700;
-                       margin-top:235px;
-                        margin-left:auto
-                } */
+                       margin-top:150px;
+                        margin-right: 200px
+                }
     @media screen and (min-width: 1200px) {
   .header{
     height: 300px;
@@ -165,15 +165,58 @@ padding: 10px;
 .test{
     color: #706e6e;
 }
-.calm{
-    color: #e797d5;
+.live{
+    color: #288542;
+}
+@media screen and (min-width: 1200px) {
+  .overload{
+    width: 600px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .overload{
+    width: 350px;
+  }
+}
+.feelings{
+    background-color: #e7e7e7;
+    margin-top: 0;
+}.nav-link:visited,
+.nav-link:link {
+  border-bottom: 2px solid transparent;
 }
 
+.nav-link:hover,
+.nav-link:active 
+{
+  border-bottom: 2px solid #61c90c;
+}
+.mik {
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.mik:hover
+{
+  color: rgb(96, 167, 90);
+  
+
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.feel{
+  background-color: #494545;
+}
 
 </style>
 <body>
     
-<nav class="navbar navbar-expand-lg  navbar-light bg-dark font-serious2 ">
+<nav class="navbar navbar-expand-lg  navbar-light bg-dark font-serious2 nav- ">
     <div class="container-fluid">
     <a class="navbar-brand me-3" href="#"><img src="img/itnergy1.jpeg" class="avatars" alt="" srcset=""></a>
       <a class="navbar-brand text-light" href="#">ITNERGY Services Limited</a>
@@ -183,107 +226,170 @@ padding: 10px;
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav ms-auto ">
             <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active text-light me-5" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="about.html">About Us</a>
+              <a class="nav-link text-light me-5" href="about.html">About Us</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link text-light" href="#">Products</a>
             </li> -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Services
+              <a class="nav-link dropdown-toggle text-light me-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="ads.html">Advanced Displays Solutions
+              <ul class="dropdown-menu feel" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item mik font-serious2" href="ads.html">The Wall
                 </a></li>
-                <li><a class="dropdown-item " style="max-width: 100%;" href="bcs.html">Business Comm Solutions
+                <li><a class="dropdown-item mik font-serious2" href="bcs.html">Hospitality TV 
                 </a></li>
                 <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Control Room Solutions</a></li>
+                <li><a class="dropdown-item mik font-serious2" href="int.html">Interactive</a></li>
+                <li><a class="dropdown-item mik font-serious2" href="wall.html">Video wall</a></li>
+
               </ul>
             </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light me-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Target Audience</a>
+                  <ul class="dropdown-menu feel" aria-labelledby="navbarDropdown">
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Education</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Corporate</a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Hospitality</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Broadcasting</a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Control Room</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Health Care</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> DOOH</a>
+                    </li>
+                    <li><hr class="dropdown-divider"></li>
+  
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Retail</a>
+                    </li>
+                    <li class="">
+                      <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Sports</a>
+                    </li>
+                  </ul>
+              </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contact Us</a>
+              <a class="nav-link text-light font-serious2" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="mailto:info@itnergy.com.ng" target="blank"><i class="fa fa-google-plus-square"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="" target="blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="" target="blank"><i class="fa fa-facebook-square"></i></a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light h5" href="https://wa.link/ckyl61" target="blank"><i class="fa fa-whatsapp"></i></a>
             </li>
           </ul>
       </div>
     </div>
   </nav>
+  
   <div class="container" style="max-width: 100%;">
-<p class="text-end font-serious2 mb-0 test">You are here: <a href="index.html" class="test">Home</a> / Advanced Display Solutions</p>
+<p class="text-end font-serious2 mb-0 test">You are here: <a href="index.html" class="test">Home</a> / Hospitality TV</p>
 
   </div>
- 
-    <div class="bg-black">
-        <center><img src="img/bcs.jpg" class="d-block  mine rounded" alt="..."></center>
-        
-      </div>
-      <div class="container  col-lg-6">
-        <h1 class="font-serious live text-center">Advanced Display Solutions</h1>
-        <P class="font-serious2 text-center p-2 me-3   ">
-            Advanced Displays is an electronic display platform that can be used for advertising, building brand awareness, and delivering important information about a company’s products and services via high-quality graphics and videos. By 2020, experts predict this particular advertising medium will transform into an industry that’s worth more than $20 billion.
-            
-            Since digital signage displays can deliver comprehensive announcements, timetables, emergency information, and product descriptions in real-time, they can give businesses an edge over their competition. 
-            In a day and age where consumers no longer respond to print ads and the cost of client acquisition is becoming more expensive.
+  <div class="feelings ">
+
+  <div class="header">
+    <div class="container">
+    <div class="row text center">
+    <div class="col-lg-12">
+    
+    <h1 class="text-black text-end">Hospitality TV</h1>
+    
+    </div>
+    </div>
+    </div>
+    </div>
+      <div class="container col-md-12 col-md-6   ">
+        <h1 class=" live font-serious1 ms-3 mt-2">A tailored home menu</h1>
+        <P class="font-serious2  ms-3  ">
+            Hotels can welcome visitors with an introductory video along with hotel logos thanks to an improved Home Menu, which raises awareness of the hotel's brand. The date, time, and frequently used commands are all available on the home menu. This flexible, affordable approach makes it easier to access the display.
+<br>
+<br>
+            Lynk Reach 4.0's unified, coaxial-compatible content management system enhances service procedures and upholds constant hotel-to-guest communication. Hotel managers can swiftly address problems with individual screens or display groups thanks to the platform's centralized, real-time monitoring.
     <!-- Are you ready to take your home and office to the next level? <a href="https://wa.link/ckyl61"> Speak To One Of Our Specialist.</a> --> 
             </P>
     </div>
-    <h2 class="font-serious text-center">Types of Advanced Display Solutions</h1>
+    <div class="container">
+       <center> <img src="img/ht690u_01.jpg" class="overload rounded-3"  alt=""></center>
+       <br>
+       <br>
+    </div>
+    </div>
+    <br>
+    <br>
+    <h2 class="font-serious1 text-center" style="color: #288542;">Hospitality TV <b style="font-weight: xx-large; color: #288542;">-</b></h1>
+        <P class="font-serious4 text-center">A showcase of products we have in this category.</P>
+
 
         <div class="card-group">
-            <div class="card">
-              <img src="img/video10.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 " alt="...">
+            <div class="card rain ">
+              <img src="img/HT.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 " alt="...">
               <div class="card-body">
-                <h5 class="card-title font-serious">Video wall</h5>
-                <p class="card-text font-serious2">A video wall is a special multi-monitor setup that consists of multiple computer monitors, video projectors, or television sets tiled together contiguously or overlapped in order to form one large screen.</p>
-                <p class="card-text font-serious2"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title font-serious">HT690U SERIES</h5>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-success me-2 ">55"</button>
+                    <button type="button" class="btn btn-outline-success me-2 ">65"</button>
+                    <button type="button" class="btn btn-outline-success me-2 ">75"</button>
+                  </div>  
+                  <p class="card-text font-serious2 mt-4" style="color: green;">HG75AT690UK</p>              
+                  <p class="card-text font-serious2 mt-4" ><small class="text-muted">Screen Size (Inch) : 55, 65, 75</small></p>
+                <a href="contact.html" class="btn btn-outline-success rounded-pill">Contact Us</a>
               </div>
             </div>
-            <div class="card">
-              <img src="img/mod.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
-              <div class="card-body">
-                <h5 class="card-title font-serious">Modular LED Walls</h5>
-                <p class="card-text font-serious2">It's one of the components of a finished LED display that comprises PCB, IC, LEDs, cables, connectors, resistors, screws, and capacitors. The LED display module integrates all electronics to produce images and videos.If you want a high-impact display for a project, the modular LED display panels are a good fit. You can configure them the way you want for a seamless viewing experience.</p>
-                <p class="card-text font-serious2"><small class="text-muted">Last updated 3 mins ago</small></p>
+            <div class="card rain">
+              <img src="img/HR.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+              <div class="card-body ">
+                <h5 class="card-title font-serious">HRU750 SERIES</h5>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-success me-2 ">55"</button>
+                    <button type="button" class="btn btn-outline-success me-2 ">65"</button>
+                    <button type="button" class="btn btn-outline-success me-2 ">75"</button>
+                  </div>  
+                  <p class="card-text font-serious2 mt-4" style="color: green;">HRU75RU750AK</p>              
+                  <p class="card-text font-serious2 mt-4" ><small class="text-muted">Screen Size (Inch) : 55, 65, 75</small></p>
+                <a href="contact.html" class="btn btn-outline-success rounded-pill">Contact Us</a>
               </div>
             </div>
-            <div class="card">
-              <img src="img/id.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
+            <div class="card rain">
+              <img src="img/HJ.jpg" style="height: 300px; width: 350px;"  class="card-img-top rounded-3 "  alt="...">
               <div class="card-body">
-                <h5 class="card-title font-serious">Interactive Display</h5>
-                <p class="card-text font-serious2">An interactive screen is a computer driven device, allowing users to access and manipulate electronic files by means of a LCD display. The interactive LCD will be connected to a computer with USB, and the computer then connected back to the LCD with a video cable.</p>
-                <p class="card-text font-serious2"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title font-serious">HJ690U SERIES</h5>
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn-outline-success me-2 ">55"</button>
+                    <button type="button" class="btn btn-outline-success me-2 ">65"</button>
+                    <button type="button" class="btn btn-outline-success me-2 ">75"</button>
+                  </div>  
+                  <p class="card-text font-serious2 mt-4" style="color: green;">HG75AJ690UKUXZN</p>              
+                  <p class="card-text font-serious2 mt-4" ><small class="text-muted">Screen Size (Inch) : 55, 65, 75</small></p>
+                <a href="contact.html" class="btn btn-outline-success rounded-pill">Contact Us</a>
               </div>
               </div>
-            </div>
-              <div class="row row-cols-1 row-cols-md-2 g-4"style="max-width:100%">
-                <div class="col">
-                  <div class="card">
-                    <center><img src="img/digital.jpg" style="height: 300px; width: 320px;"  class="card-img-top  rounded-3 "  alt="..."></center>
-                    <div class="card-body">
-                      <h5 class="card-title font-serious">Digital Signage</h5>
-                      <p class="card-text font-serious2">Digital signage, sometimes called electronic signage, refers to display technologies like LED walls (or video walls), projection and LCD monitors to vividly display webpages, videos, directions, restaurant menus, marketing messages or digital images.</p>
-                      <p class="card-text font-serious2"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                    </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <center><img src="img/solar.jpg" style="height: 300px; width: 320px;"  class="card-img-top rounded-3 hmm"  alt="..."></center>
-
-                    <div class="card-body">
-                        <h5 class="card-title font-serious">Commercial Panels [Flat & Curved]</h5>
-                        <p class="card-text font-serious2">Commercial solar is solar energy meant for businesses as opposed to its more conventional use in residences. Solar energy is an excellent clean and renewable energy source and a highly effective energy-saving innovation.They have a good shelf life and are made using advanced technology. These panels provide up to 25 years of performance warranty.  They are ideal for use in commercial systems, industrial applications, residential rooftops, and large-scale utility systems.</p>
-                        <p class="card-text font-serious2"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      </div>
-                      </div>
-                </div>
-                
-                
-              </div>
-              
+            </div>   
     
   <style>
     .fine{
@@ -291,142 +397,111 @@ padding: 10px;
        font-family: Arial, Helvetica, sans-serif;
        background: #ffffff;
    }
-   
-   a {
-       transition: .3s;
+   .rain{
+    border: none;
    }
    
-   a:hover,
-   a:active,
-   a:focus {
-       outline: none;
-       text-decoration: none;
-   }
-   
-   .footer {
-       position: relative;
-       padding-top: 45px;
-       background: #121518;
-       height: auto;
-   }
-   
-   .footer .footer-about,
-   .footer .footer-contact,
-   .footer .footer-links,
-   .footer .footer-project {
-       position: relative;
-       margin-bottom: 45px;
-       color: #999999;
-   }
-   
-   .footer .footer-about h3,
-   .footer .footer-contact h3,
-   .footer .footer-links h3,
-   .footer .footer-project h3 {
-       position: relative;
-       margin-bottom: 5px;
-       padding-bottom: 5px;
-       font-size: 30px;
-       font-weight: 600;
-       color: #eeeeee;
-   }
-   
-   .footer .footer-about h3::after,
-   .footer .footer-contact h3::after,
-   .footer .footer-project h3::after {
-       position: absolute;
-       content: "";
-       width: 50px;
-       height: 2px;
-       left: 0;
-       bottom: 0;
-       background: #eeeeee;
-   }
-   
-   .footer .footer-links h3::after{
-     position: absolute;
-       content: "";
-       width: 50px;
-       height: 2px;
-       left: 0;
-       bottom: 0;
-       background: #eeeeee;
-   }
-   .fifty{
-     display:block;
-       width:400px;
-       word-wrap:break-word;
-       }
-       .kemi{
-         height: auto;
-         text-align: center;
-         font-size: 16px;
-         color: white;
-   
-       }
-       .m{
-         margin: 30px;
-         margin-top: 0px;
-       }
-   </style>
-   <div class="footer fine ">
-               <div class="container">
-                   <div class="row">
-                     <div class="footer-links fifty">
-                   <h3 class="font-paris">Services</h3>   
-                   <div class="font-serious2 " >
-        <li> <a class="text-capitalize" style="color: white;" href="#" >Advanced Displays Solutions</a></li>
-        <br>
-      <li>  <a class="text-capitalize" style="color: white;"  href="bcs.html">Business Comm Solutions  Solutions</a></li>
-      <br>
-   
-       <li><a class=" text-capitalize" style="color: white;"  href="#" >Control Room Solutions</a></li>
-       <br>
-   
-       <br>
-   
-       </div>   
-                     </div>
-                     <div class="footer-about fifty">
-                 <h3 class="font-paris">About Us</h3>
-                 <p class="font-serious2 p-2">ITNERGY is a dedicated solutions provider that brings you world renowned brands in Smart Automation, Audio Visual, Lighting and Home Cinemas & Seating, all under one roof.</p>   
-                 <p class="font-serious2 p-2">Head Branch: 17, Olori Adekemi Ajibola Street, 
-                  Arowojobe Estate, 
-                  Mende Maryland,
-                  Lagos Nigeria</p>  
-                     </div>
-       <div class=" well">
-           <div class=""></div>
-           <div id="" class="m" >
-         <div class="font-ubuntu m-0 " style="color: white;">
-         <h3 class="">For FeedBack:</h3>
-         </div>
-               <form method="post"  action="" class="footer-about " >
-                   <div class="form-group">
-                       <h3>Your Email:</h3>
-                       <input type="email" width="20px" class="form-control font-ubuntu" name="emails" required="required"/>
-                   </div>
-                 <div class="form-group">
-           <h3>Message Us</h3>
-                   <textarea required name="address" class="form-control font-ubuntu" cols="5" rows="3" placeholder="Enter Message Here........"></textarea>
-               </div>
-               <br>
-               <div class="form-group">
-               <center><button type="submit" name="send" class="btn btn-primary"> <i class="fas fa-mail-bulk"></i>Send</button></center>
-               </div>
-               </form>
-               <br />
-       </div>
-       </div>
-                <div class="footer-contact fifty">
-                 <h3 class="font-paris">Contact Us</h3>
-               <p class="font-serious2">Click to: (<a href="tel:08028380760" style="color: white;" class="font-serious2">Call 08028380760</a>)</p>
-               <p class="font-serious2">Click to: (<a href="mailto:info@itnergy.com.ng" style="color: white;">Email Us!</a>)</p>
-                     </div>
-                   </div>
-               </div>
-                 </div>
-                 <footer class="bg-dark kemi font-serious2">Copyright 2023 © ITNERGY . All rights reserved.@Mikini</footer>
+   .nothing{
+            background-color: #9b9898;
+           }
+           .one::after,
+           .two::after,
+          .three::after,
+          .four::after {
+            display: block;
+            content: '';
+           width: 15%;
+            height: 2px;
+            background: black;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+                }
+
+          .one,
+          .two,
+          .three,
+          .four {
+              position: relative;  
+              }
+       </style>
+       
+                    <footer class="nothing mt-3">
+                      <div class="container font-serious2 ">
+                        <br>
+                        <div class="row mt-3">
+                          <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div>
+                              <a class="navbar-brand mb-3 me-3" href="#"><img src="img/itnergy1.jpeg" class="avatars" alt="" srcset=""></a>
+                                
+                              <p class="mb-30 mt-2 footer-desc">ITNERGY is a dedicated solutions provider that brings you world renowned brands in Smart Automation, Audio Visual, Lighting and Home Cinemas & Seating, all under one roof.</p>
+                            </div>
+                          </div>
+                          <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+                            <div class="">
+                              <h4 class="two">Quick Links</h4>
+                              <ul class="list-unstyled " style="color: black;">
+                                <li>
+                                  <a href="index.html" class=" font-serious2 text-decoration-none"style="color: black;">Home</a>
+                                </li>
+                                <li>
+                                  <a href="about.html" class="font-serious2 text-decoration-none"style="color: black;">About Us</a>
+                                </li>
+                                <li>
+                                  <a href="contact.html" class="font-serious2 text-decoration-none"style="color: black;">Contact</a>
+                                </li>
+                              </ul>
+                              <ul class="d-flex gap-3 list-unstyled  ">
+                                <li><a class=" text-dark h5" href="mailto:info@itnergy.com.ng" target="blank"><i class="fa fa-google-plus-square"></i></a>
+                                </li>
+                                <li><a class=" text-dark h5" href="" target="blank"><i class="fa fa-twitter"></i></a></a></li>
+                                <li><a class=" text-dark h5" href="" target="blank"><i class="fa fa-facebook-square"></i></a></li>
+                                <li><a class=" text-dark h5" href="https://wa.link/ckyl61" target="blank"><i class="fa fa-whatsapp"></i></a></li>
+    
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div>
+                              <h4 class="three">Products</h4>
+                              <ul class="list-unstyled">
+                                <li><a class=" font-serious2 text-decoration-none"  style="color: black;" href="ads.html">The Wall
+                                </a></li>
+                                <li><a class="font-serious2 text-decoration-none" style="color: black;" href="bcs.html">Hospitality TV 
+                                </a></li>
+                                <li><a class="font-serious2 text-decoration-none" style="color: black;" href="int.html">Interactive</a></a></li>
+                                <li><a class="  font-serious2 text-decoration-none " style="color: black;" href="wall.html">Video wall</a></li>
+                                
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-xl-3 col-lg-3 col-md-6">
+                            <div>
+                              <h4 class="four"> Address</h4>
+                              <ul class="list-unstyled">
+                                <p class="font-serious2">Click to: (<a href="tel:08028380760" style="color: rgb(6, 6, 6);" class="font-serious2">Call 08028380760</a>)</p>
+                                <p class="font-serious2">Click to: (<a href="mailto:info@itnergy.com.ng" style="color: rgb(9, 9, 9);">Email Us!</a>)</p>
+                                <li>
+                                  <p>Head Branch: 17, Olori Adekemi Ajibola Street, 
+                                    Arowojobe Estate, 
+                                    Mende Maryland,
+                                    Lagos Nigeria</p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                    
+                          <div class="copyright">
+                            <p>Copyright 2023 © ITNERGY . All rights reserved @Mikini</p>
+                          </div>
+                          <div>
+                           
+                          </div>
+                        </div>
+                      </div>
+                    </footer>
 </body>
 
 <!--Get your own code at fontawesome.com-->
