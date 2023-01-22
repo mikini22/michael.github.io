@@ -25,13 +25,13 @@
 .font-serious4{
     font: normal 600 20px var(--font-varta,);
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Varta&display=swap');
 :root{
     --font-varta: 'Varta', sans-serif;
     --color-border: rgb(187, 180, 180);
     
 }
-.font-serious5{
-    font: normal 600 25px var(--font-varta,);
+.font-serious3{
+    font: normal 600 29px var(--font-varta,);
 }
-
