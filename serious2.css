@@ -5,7 +5,7 @@
     
 }
 .font-serious2{
-    font: normal 500 17px var(--font-varta,);
+    font: normal 500 19px var(--font-varta,);
 }
 @import url('https://fonts.googleapis.com/css2?family=Varta&display=swap');
 :root{
@@ -33,5 +33,5 @@
     
 }
 .font-serious3{
-    font: normal 600 29px var(--font-varta,);
+    font: normal 600 37px var(--font-varta,);
 }
