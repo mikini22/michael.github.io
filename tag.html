@@ -306,6 +306,39 @@ padding: 10px;
   margin-left: 30px;
 }
 
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.pie:hover .image {
+  opacity: 0.3;
+}
+
+.pie:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 16px;
+}
 </style>
 <body >
 
@@ -367,7 +400,7 @@ padding: 10px;
   </nav>
   
   <div class="container" >
-<p class="text-end font-serious2 mb-0 test">You are here: <a href="index.html" class="test">Home</a> / Hospitality</p>
+<p class="text-end font-serious2 mb-0 test">You are here: <a href="index.html" class="test">Home</a> / Audience</p>
 
   </div>
   <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-interval="10000"  data-bs-ride="carousel"  data-bs-pause="false"  >
@@ -379,7 +412,7 @@ padding: 10px;
         <center><img src="img/hospitality.jpg"  class="d-block  mine rounded mine"  alt="..."></center>
         <div class="carousel-caption">
 					<b><h4 class="animated bounceInLeft font-serious text-black mb-0 mt-3" style="animation-delay: 1s"></h4></b>
-          <b><h5 class="animated bounceInRight font-serious10 text-black mt-0 mb-0" style="animation-delay: 1s"> Hospitality</h5></b>
+          <b><h5 class="animated bounceInRight font-serious10 text-black mt-0 mb-0" style="animation-delay: 1s"> Audience</h5></b>
 					<p class="animated bounceInLeft d-none d-md-block font-serious1 text-black mt-0" style="animation-delay: 2s">Experts in Digital Display Solutions</p>
 					<p class="animated bounceInRight" style="animation-delay: 3s"><a href="contact.html" class="btn btn-outline-success rounded-pill mb-3 font-serious2">Contact Us</a></p>
 				</div>
@@ -395,72 +428,102 @@ padding: 10px;
     
   </div>
   </div>
-      <div class="container col-md-12 col-md-6   ">
-        <h1 class=" live font-serious1 ms-3 mt-5 text-center">A tailored home menu</h1>
-        <P class="font-serious2  ms-3  ">
-            Hotels can welcome visitors with an introductory video along with hotel logos thanks to an improved Home Menu, which raises awareness of the hotel's brand. The date, time, and frequently used commands are all available on the home menu. This flexible, affordable approach makes it easier to access the display.
-<br>
-<br>
-            Lynk Reach 4.0's unified, coaxial-compatible content management system enhances service procedures and upholds constant hotel-to-guest communication. Hotel managers can swiftly address problems with individual screens or display groups thanks to the platform's centralized, real-time monitoring.
-    <!-- Are you ready to take your home and office to the next level? <a href="https://wa.link/ckyl61"> Speak To One Of Our Specialist.</a> --> 
-            </P>
-    </div>
-    <div class="container">
-       <center> <img src="img/ht690u_01.jpg"  style="width: auto; max-width: 100%;" class="overload rounded-3"  alt=""></center>
-       <br>
-       <br>
-    </div>
-    </div>
-    <br>
-    <br>
-    <h2 class="font-serious1 text-center" style="color: #288542;">Hospitality TV <b style="font-weight: xx-large; color: #288542;">-</b></h1>
-        <P class="font-serious4 text-center">A showcase of products we have in this category.</P>
+  <br>
+  <br>
 
-
-        <div class="card-group">
-            <div class="card rain ">
-              <img src="img/HT.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 " alt="...">
-              <div class="card-body">
-                <h5 class="card-title font-serious">HT690U SERIES</h5>
-                <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-success me-2 ">55"</button>
-                    <button type="button" class="btn btn-outline-success me-2 ">65"</button>
-                    <button type="button" class="btn btn-outline-success me-2 ">75"</button>
-                  </div>  
-                  <p class="card-text font-serious2 mt-4" style="color: green;">HG75AT690UK</p>              
-                  <p class="card-text font-serious2 mt-4" ><small class="text-muted">Screen Size (Inch) : 55, 65, 75</small></p>
-                <a href="contact.html" class="btn btn-outline-success rounded-pill">Contact Us</a>
+   <P class="font-serious4 text-center" style="font-weight: 800; font-size: 50px;">Business solutions tailored to your industry</P>
+        <div class="row row-cols-1 row-cols-md-4 g-4 w-100 " >
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_1.jpg" class="card-img-top image" alt="..." >
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                  <h5 class="card-title font-serious21" >Retail</h5>
+                  <div class="middle">
+                    <p class="text text-center font-serious2 ">Create an exciting shopping experience with digital signage for retail</p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card rain">
-              <img src="img/HR.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 "  alt="...">
-              <div class="card-body ">
-                <h5 class="card-title font-serious">HRU750 SERIES</h5>
-                <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-success me-2 ">55"</button>
-                    <button type="button" class="btn btn-outline-success me-2 ">65"</button>
-                    <button type="button" class="btn btn-outline-success me-2 ">75"</button>
-                  </div>  
-                  <p class="card-text font-serious2 mt-4" style="color: green;">HRU75RU750AK</p>              
-                  <p class="card-text font-serious2 mt-4" ><small class="text-muted">Screen Size (Inch) : 55, 65, 75</small></p>
-                <a href="contact.html" class="btn btn-outline-success rounded-pill">Contact Us</a>
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_4.jpg" class="card-img-top image" alt="...">
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                    <h5 class="card-title font-serious21">DOOH</h5>
+                    <div class="middle">
+                        <p class="text text-center font-serious2 ">Captivate customers with vibrant visuals from your outdoor advertising.</p>
+                    </div>
+                </div>
               </div>
             </div>
-            <div class="card rain">
-              <img src="img/HJ.jpg" style="height: 300px; width: auto; max-width: 100%;"  class="card-img-top rounded-3 "  alt="...">
-              <div class="card-body">
-                <h5 class="card-title font-serious">HJ690U SERIES</h5>
-                <div class="btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-success me-2 ">55"</button>
-                    <button type="button" class="btn btn-outline-success me-2 ">65"</button>
-                    <button type="button" class="btn btn-outline-success me-2 ">75"</button>
-                  </div>  
-                  <p class="card-text font-serious2 mt-4" style="color: green;">HG75AJ690UKUXZN</p>              
-                  <p class="card-text font-serious2 mt-4" ><small class="text-muted">Screen Size (Inch) : 55, 65, 75</small></p>
-                <a href="contact.html" class="btn btn-outline-success rounded-pill">Contact Us</a>
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_5.jpg" class="card-img-top image" alt="...">
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                    <h5 class="card-title font-serious21">Coporate</h5>
+                    <div class="middle">
+                        <p class="text text-center font-serious2 ">Build a collaborative environment for your company with corporate signage</p>
+                    </div>
+                </div>
               </div>
+            </div>
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_6.jpg" class="card-img-top image" alt="...">
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                    <h5 class="card-title font-serious21">Control Room</h5>
+                    <div class="middle">
+                        <p class="text text-center font-serious2 ">Enhance your visuals with displays that a strong control room deserves</p>
+                    </div>
+                </div>
               </div>
-            </div>   
+            </div>
+          </div>
+          <div class="row row-cols-1 row-cols-md-4 g-4 w-100 " >
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_7.jpg" class="card-img-top image" alt="..." >
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                  <h5 class="card-title font-serious21" >Education</h5>
+                  <div class="middle">
+                    <p class="text text-center font-serious2 ">Strenghten every student's learning experience with an interactive whiteboart</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_8.jpg" class="card-img-top image" alt="...">
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                    <h5 class="card-title font-serious21">Sport</h5>
+                    <div class="middle">
+                        <p class="text text-center font-serious2 ">Games are bigger and brighter with visuals from your digital scoreboard</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_10.jpg" class="card-img-top image" alt="...">
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                    <h5 class="card-title font-serious21">Healthcare</h5>
+                    <div class="middle">
+                        <p class="text text-center font-serious2 ">Share insights with patients and other doctors with innotive hospital signage</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col pie">
+              <div class="card">
+                <img src="img/img_vertical_solutions_9.jpg" class="card-img-top image" alt="...">
+                <div class="card-body card-img-bottom " style="background-color: #d7d2d2; ">
+                    <h5 class="card-title font-serious21">Broadcasting</h5>
+                    <div class="middle">
+                        <p class="text text-center font-serious2 ">Support your studio and each broadcast with industry-leading displays</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
             <div class="container mt-3 border-5" style="background-color: black; border-radius: 40px">
               <br>
               <h5 class="text-center text-white font-serious">Do you have any questions ?</h5>
@@ -469,6 +532,7 @@ padding: 10px;
           
             </div>
             <style>
+               
               @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
               :root{
           --font-Zen: 'Zen Tokyo Zoo', cursive;
@@ -478,6 +542,21 @@ padding: 10px;
           .font-serious10{
           font: normal 400 500px var(--font-Zen,);
           }
+          .card{
+                border: none
+            } 
+            </style>
+            <style>
+                  @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
+:root{
+    --font-serious:'Urbanist', sans-serif;
+    --color-border: rgb(248, 247, 247);
+    
+}
+.font-serious21{
+    font: normal 500 23px var(--font-serious);
+}
+
             </style>
           <style>
           @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
@@ -545,7 +624,7 @@ padding: 10px;
                    <a href="about.html" class="font-serious2 text-decoration-none"style="color: white;">About Us</a>
                  </li>
                  <li>
-                                  <a href="contact.html" class="font-serious2 text-decoration-none"style="color: white;">Contact</a>
+                 <a href="contact.html" class="font-serious2 text-decoration-none"style="color: white;">Contact</a>
                                 </li>
                                 <li>
                                   <a class="font-serious2 text-decoration-none" style="color: white;" href="tag.html">Target Audience</a>

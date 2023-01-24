@@ -212,7 +212,7 @@ padding: 10px;
     margin-top: 0; /* remove the gap so it doesn't close */
 }
 .feel{
-  background-color: #494545;
+  background-color: #000000;
 }
 .carousel-caption{
   bottom: 0px;
@@ -294,19 +294,29 @@ padding: 10px;
 		font-size: 15px;
 	}
 }
-
+@media (min-width: 1080){
+  .fixed-top {
+    margin-top: 20px;
+   }
+}
+.pon{
+  width: 1140px;
+}
+.baby{
+  margin-left: 30px;
+}
 </style>
 <body >
 
   <nav class="navbar navbar-expand-md  navbar-light bg-black font-serious2 fixed-top nav- ">
-    <div class="container-fluid">
+    <div class="container-fluid col-md-12">
     <a class="navbar-brand m-1" href="index.html"><img src="img/itnergy1.jpeg" class="avatars" alt="" srcset=""></a>
-      <a class="navbar-brand text-light ms-2" href="#">ITNERGY Services Limited</a>
+      <a class="navbar-brand text-light ms-3" href="#">ITNERGY</a>
       <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav ms-auto ">
+        <ul class="navbar-nav baby ">
             <li class="nav-item">
               <a class="nav-link active text-light me-5" aria-current="page" href="index.html">Home</a>
             </li>
@@ -330,38 +340,8 @@ padding: 10px;
              
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-light me-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Target Audience</a>
-                <ul class="dropdown-menu feel" aria-labelledby="navbarDropdown">
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Education</a>
-                  </li>
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Corporate</a>
-                  </li>
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Hospitality</a>
-                  </li>
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Broadcasting</a>
-                  </li>
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Control Room</a>
-                  </li>
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Health Care</a>
-                  </li>
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> DOOH</a>
-                  </li>
-
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Retail</a>
-                  </li>
-                  <li class="">
-                    <a class="dropdown-item mik font-serious2" href="javascript:void(0);"> Sports</a>
-                  </li>
-                </ul>
+            <li class="nav-item">
+              <a class="nav-link text-light font-serious2 me-5" href="tag.html">Target Audience</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light font-serious2" href="contact.html">Contact Us</a>
@@ -415,7 +395,7 @@ padding: 10px;
   </div>
   </div>
       <div class="container col-md-12 col-md-6   ">
-        <h1 class=" live font-serious1 ms-3 mt-2">Seamless video walls with razor-thin bezels
+        <h1 class=" live font-serious1 ms-3 mt-5 text-center">Seamless video walls with razor-thin bezels
         </h1>
         <P class="font-serious2  ms-3  ">
             The VMB-R provides an engaging and seamless experience thanks to its extremely thin 0.44 mm bezel, wide viewing angles, and Samsung's cutting-edge picture enhancement technologies. Because of its sleek, contemporary style, the display fits perfectly with any office setting.<br>
@@ -551,7 +531,7 @@ The display’s wide viewing angles mean content is easily visible even if viewe
                <p class="mb-30 mt-2 footer-desc">ITNERGY is a dedicated solutions provider that brings you world renowned brands in Smart Automation, Audio Visual, Lighting and Home Cinemas & Seating, all under one roof.</p>
              </div>
            </div> -->
-           <div class="col-xl-4 col-lg-5  col-md-6">
+           <div class="col-sm-4  ">
              <div class="">
                <h4 class="two text-light">Quick Links</h4>
                <ul class="list-unstyled " style="color: rgb(255, 255, 255);">
@@ -562,8 +542,11 @@ The display’s wide viewing angles mean content is easily visible even if viewe
                    <a href="about.html" class="font-serious2 text-decoration-none"style="color: white;">About Us</a>
                  </li>
                  <li>
-                   <a href="contact.html" class="font-serious2 text-decoration-none"style="color: white;">Contact</a>
-                 </li>
+                                  <a href="contact.html" class="font-serious2 text-decoration-none"style="color: white;">Contact</a>
+                                </li>
+                                <li>
+                                  <a class="font-serious2 text-decoration-none" style="color: white;" href="tag.html">Target Audience</a>
+                                </li>
                </ul>
                <ul class="d-flex gap-3 list-unstyled  ">
                  <li><a class=" text-light h5" href="mailto:info@itnergy.com.ng" target="blank" style="color: #ffffff;"><i class="fa fa-google-plus-square"></i></a>
@@ -575,7 +558,7 @@ The display’s wide viewing angles mean content is easily visible even if viewe
                </ul>
              </div>
            </div>
-           <div class="col-xl-4 col-lg-6 offset-xl-1  col-lg-12 ">
+           <div class="col-sm-4  offset-xl-1  ">
              <div>
                <h4 class="three text-light">Products</h4>
                <ul class="list-unstyled">
@@ -589,7 +572,7 @@ The display’s wide viewing angles mean content is easily visible even if viewe
                </ul>
              </div>
            </div>
-           <div class="col-xl-3 col-lg-3 col-md-6">
+           <div class="col-sm-3 col-lg-3 col-md-6">
              <div class="">
                <h4 class="four  text-light"> Contact Us</h4>
                <ul class="list-unstyled">
